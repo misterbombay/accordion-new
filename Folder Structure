@@ -1,0 +1,16 @@
+mcs-accordion
+└── src
+└── webparts
+└── mcsAccordionWebpart
+├── components
+│ ├── Accordion.tsx
+│ ├── AccordionHeader.tsx
+│ ├── AccordionBody.tsx
+│ ├── IAccordionProps.ts
+│ └── Accordion.module.scss
+│
+├── IMcsAccordionWebpartProps.ts
+├── McsAccordionWebpart.module.scss
+├── McsAccordionWebpart.tsx
+├── McsAccordionWebpartWebPart.manifest.json
+└── McsAccordionWebpartWebPart.ts
