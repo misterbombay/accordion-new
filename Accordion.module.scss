@@ -1,0 +1,50 @@
+src/webparts/mcsAccordionWebpart/components/Accordion.module.scss
+
+/* Root accordion wrapper */
+.accordionItem {
+  margin-bottom: 12px;
+}
+
+/* Header base styling */
+.accordionHeader {
+  display: flex;
+  align-items: center;
+  user-select: none;
+  transition: background-color 0.2s ease-in-out,
+              border-color 0.2s ease-in-out;
+}
+
+/* Hover effect for better UX */
+.accordionHeader:hover {
+  filter: brightness(0.97);
+}
+
+/* Toggle icon (+ / -) */
+.toggleIcon {
+  font-weight: 600;
+  line-height: 1;
+}
+
+/* Header icon image */
+.headerIcon {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
+/* Body container */
+.accordionBody {
+  transition: padding 0.2s ease-in-out;
+}
+
+/* Image inside body */
+.bodyImage {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Rich text content */
+.bodyContent {
+  line-height: 1.6;
+}
