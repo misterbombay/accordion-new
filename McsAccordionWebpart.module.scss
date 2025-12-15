@@ -1,0 +1,33 @@
+src/webparts/mcsAccordionWebpart/McsAccordionWebpart.module.scss
+
+/* Web part root container */
+.mcsAccordionWebpart {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Optional wrapper for future extensibility */
+.mcsAccordionContainer {
+  display: block;
+}
+
+/* Reset common elements inside web part to avoid inheritance issues */
+.mcsAccordionWebpart * {
+  box-sizing: border-box;
+}
+
+/* When placed in narrow columns */
+@media (max-width: 576px) {
+  .mcsAccordionWebpart {
+    padding: 0;
+  }
+}
+
+
+How to use it (important)
+In McsAccordionWebpart.tsx
+import styles from './McsAccordionWebpart.module.scss';
+
+<div className={styles.mcsAccordionWebpart}>
+  <Accordion {...props} />
+</div>
