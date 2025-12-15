@@ -1,0 +1,43 @@
+[
+  {
+    "id": 1,
+    "title": "Home",
+    "url": "/",
+    "iconClass": "bi-house",
+    "order": 1
+  },
+  {
+    "id": 2,
+    "title": "Services",
+    "iconClass": "bi-grid",
+    "order": 2
+  },
+  {
+    "id": 3,
+    "title": "Web Development",
+    "url": "/services/web",
+    "parentId": 2,
+    "order": 1
+  },
+  {
+    "id": 4,
+    "title": "UI / UX Design",
+    "url": "/services/ui-ux",
+    "parentId": 2,
+    "order": 2
+  },
+  {
+    "id": 5,
+    "title": "Consulting",
+    "url": "/services/consulting",
+    "parentId": 2,
+    "order": 3
+  },
+  {
+    "id": 6,
+    "title": "Contact",
+    "url": "/contact",
+    "iconClass": "bi-envelope",
+    "order": 3
+  }
+]
